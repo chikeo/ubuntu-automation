@@ -77,8 +77,8 @@ git clone https://github.com/chikeo/ubuntu-automation.git
 
 cd ubuntu-automation/
 
-# Remember to replace the email placeholder with your email as a comment and to reference the keys appropriately
-# Move the key pair one level above this application's root folder for it to work with the application without any changes
+		N.B: Remember to replace the email placeholder with your email as a comment and to reference the keys appropriately
+		N.B: Move the key pair one level above this application's root folder for it to work with the application without any changes
 
 ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
 
