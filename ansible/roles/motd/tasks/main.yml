@@ -1,0 +1,7 @@
+- name: Copy file 92-assurity-hello-devops-motd to directory /etc/update-motd.d/ on the target host
+  copy:
+    src: ../../../../92-assurity-hello-devops-motd
+    dest: /etc/update-motd.d/92-assurity-hello-devops-motd
+    owner: root
+    group: root
+    mode: u+rwx,g+rx,g-w,o+rx,o-w

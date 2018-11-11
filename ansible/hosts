@@ -1,0 +1,2 @@
+[ubuntu-server]
+18.222.133.213 ansible_connection=ssh ansible_ssh_user=ubuntu
